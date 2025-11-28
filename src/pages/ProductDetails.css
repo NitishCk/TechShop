@@ -345,18 +345,14 @@ body, html {
    width: 150px;
   }
   .gappppp{
-   /* margin: -20px; */
-   /* gap: -0px !important; */
    margin-right: -60px;
-   
-
   }
+
   .specificationWidth{
    width: 300px !important;
-   
   }
+
   .u{
-   /* padding: 30px !important; */
    padding-right: 5px !important;
    padding-left: 5px !important;
   }
@@ -365,12 +361,8 @@ body, html {
   }
   .pp{
    margin-left: -250px;
-
-   
   }
 
-   
-  
 
 }
 .first_popup_pad{
@@ -385,12 +377,6 @@ body, html {
 
 }
 @media (max-width:322px) {
-   .pp{
-      /* margin-left: -20px !important; */
-      /* padding-left: -50px !important; */
-      /* margin-right: 40px !important; */
-
-   }
    .Prod-Speci{
       margin-right: -13px !important;
    }
