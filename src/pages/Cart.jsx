@@ -10,7 +10,7 @@ const Cart = () => {
   const dispatch = useDispatch();
   const { cart } = useSelector((state) => state.cartItems);
 
-  // Calculate totals
+
   const originalPrice = cart.reduce((acc, item) => acc + item.originalPrice * item.quantity, 0);
   const finalPrice = cart.reduce((acc, item) => acc + item.finalPrice * item.quantity, 0);
   const discount = originalPrice - finalPrice;
@@ -21,7 +21,6 @@ const Cart = () => {
         // ✅ Empty Cart UI
         <div>
           <div className="textttt">
-            {/* <i className="fa-sharp fa-solid fa-cart-xmark lllttr" style={{color: "#e60a0a"}}></i> */}
             <BsCartX className="gjhjgf " />
           </div>
           <h1 className="text-center text-white text-4xl font-bold pt-18">
@@ -39,7 +38,7 @@ const Cart = () => {
       ) : (
         // ✅ Cart UI with Items
         <div className="row justify-content-center my-3">
-          {/* Order Summary */}
+        
           <div
             className="col-12 col-sm-4 order-sm-2"
             style={{
