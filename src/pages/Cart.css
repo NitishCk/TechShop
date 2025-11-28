@@ -18,7 +18,7 @@
     }
 
     .y_scrolling h5 {
-        font-size: 1.2rem !important; /* Smaller heading for mobile */
+        font-size: 1.2rem !important; 
     }
 
     .y_scrolling p.card-text {
@@ -30,18 +30,18 @@
     }
 
     .y_scrolling {
-        scrollbar-width: auto; /* Firefox default */
-        scrollbar-color: auto; /* Firefox default */
+        scrollbar-width: auto;
+        scrollbar-color: auto; 
     }
     .y_scrolling::-webkit-scrollbar {
-        width: auto; /* WebKit default width */
-        height: auto; /* WebKit default height */
+        width: auto;
+        height: auto; 
     }
     .y_scrolling::-webkit-scrollbar-track {
-        background: initial; /* WebKit default background */
+        background: initial; 
     }
     .y_scrolling::-webkit-scrollbar-thumb {
-        background-color: initial; /* WebKit default thumb color */
+        background-color: initial; 
         border-radius: initial;
         border: initial;
         background-clip: initial;
@@ -52,24 +52,24 @@
 /* --- Tablet and Laptop View Styles (screens 576px and wider) --- */
 @media (min-width: 576px) {
     .y_scrolling {
-        height: 500px; /* Fixed height for tablet/laptop views */
-        overflow-y: scroll; /* **This is crucial for enabling scrolling and making it visible** */
+        height: 500px;
+        overflow-y: scroll; 
     }
 
-    /* Custom Scrollbar Styles for WebKit browsers (Chrome, Safari, Edge, Opera) */
+  
     .y_scrolling::-webkit-scrollbar {
-        width: 12px; /* Width of the vertical scrollbar */
+        width: 12px; 
     }
 
     .y_scrolling::-webkit-scrollbar-track {
-        background: rgb(60, 60, 60); /* Dark gray background for the track */
+        background: rgb(60, 60, 60); 
         border-radius: 10px;
     }
 
     .y_scrolling::-webkit-scrollbar-thumb {
-        background-color: #ff4500; /* Red color for the scrollbar thumb */
+        background-color: #ff4500; 
         border-radius: 10px;
-        border: 3px solid rgb(60, 60, 60); /* Matches track color for a cleaner look */
+        border: 3px solid rgb(60, 60, 60);
     }
 
     .y_scrolling {
